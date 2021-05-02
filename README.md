@@ -13,6 +13,6 @@ docker build -t note-taking .
 To run the built image execute the following command and you will have the generated PDF inside the `out/` directory:
 
 ```bash
-docker run -v /Users/gabryon/Projects/Markdowns/:/app/ note-taking 
+docker run -v /path/to/dir:/app/ note-taking 
 ```
 
